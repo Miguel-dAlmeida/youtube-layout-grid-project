@@ -1,0 +1,88 @@
+html {
+    font-family: "Roboto", serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-main {
+    background-color: #F7F7F7;
+    padding: 35px;
+    width: 900px;
+    display: grid;
+    grid:
+        "imagem-video propaganda" 60px "imagem-video videos-sugeridos" 160px "informacoes-video videos-sugeridos" 125px / 540px 290px;
+    /* Como o contêiner tem largura fixa de 900px e a segunda coluna ocupa 290px, 
+       a primeira coluna poderia usar "1fr" no lugar de "540px". Isso porque "1fr"
+       ocuparia automaticamente o restante do espaço disponível (900px - 290px = 540px), 
+       eliminando a necessidade de cálculos manuais. 
+       O mesmo poderia ser feito para ao tamanho da 3° linha! */
+    gap: 0 18px;
+}
+
+.imagem-video {
+    grid-area: imagem-video;
+}
+
+/* Nos elementos ".informacoes-video", ".propaganda", ".conteiner-videos-sugeridos" e ".video-sugerido" é redundante aplicar altura e a largura, pois as dimensões já foram configuradas na propriedade grid. Nos próximos projetos, não deixe de fazer os cálculos, porém acidione as medidas obtidas apenas ao Grid Layout.
+Nota: Claro que aqui todas as dimensões já foram pensadas anteriormente pelos professores do curso, então é óbvio que os elementos caberão em 900x415px */
+.informacoes-video {
+    grid-area: informacoes-video;
+    /* width: 580px;
+    height: 125px; */
+    margin-top: 13px;
+    display: grid;
+    gap: 5px;
+}
+
+.propaganda {
+    grid-area: propaganda;
+}
+
+.conteiner-videos-sugeridos {
+    grid-area: videos-sugeridos;
+    /* width: 270px;
+    height: 285px; */
+    margin-top: 20px;
+}
+
+.video-sugerido {
+    display: flex;
+    /* height: 70px; */
+    margin-bottom: 17px;
+}
+
+.video-sugerido .video-detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5px;
+}
+
+.video-sugerido .miniatura-video {
+    margin-right: 3px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+.informacoes-video p:nth-child(3) {
+    font-size: 16px;
+}
+
+.informacoes-video h1 {
+    font-size: 18px;
+}
+
+.video-detalhes p {
+    font-size: 11px;
+}
