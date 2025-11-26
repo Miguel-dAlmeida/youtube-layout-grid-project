@@ -36,7 +36,7 @@ Um layout dividido em duas colunas, com um destaque para um vídeo maior no lado
 
 
   <div>
-  <img src="./src/images/project-final.jpeg" alt="Print do resultado final da página" width="100%">
+  <img src="https://raw.githubusercontent.com/Miguel-dAlmeida/youtube-layout-grid-project/main/src/images/project-final.jpeg" alt="Print do resultado final da página" width="100%">
 </div>
 
 ## __Linguagens Utilizadas__
@@ -56,7 +56,7 @@ verbosidade do código). A grade é composta por duas colunas e três linhas: a 
 **Abaixo, é possível observar a divisão do layout no Grid, demonstrada utilizando a ferramenta Chrome DevTools:**
 
   <div>
-  <img src="./src/images/grid_layout.png" alt="Print da estrutura bidimensional em grade do projeto" width="100%">
+  <img src="https://raw.githubusercontent.com/Miguel-dAlmeida/youtube-layout-grid-project/main/src/images/grid_layout.png" alt="Print da estrutura bidimensional em grade do projeto" width="100%">
 </div>
 
 ## __Desafios Enfrentados__
@@ -103,6 +103,6 @@ Agradeço por dedicar seu tempo para acompanhar este projeto e explorar meu diá
         target="_blank"></a>
   </div>
 
-<div>
-  <img src="https://i.imgur.com/kwfpJJn.gif" alt="Gif representando parceria" width="100%">
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Miguel-dAlmeida/youtube-layout-grid-project/main/src/images/closingImage.gif" alt="Imagem representando união e parceria" width="80%">
 </div>
